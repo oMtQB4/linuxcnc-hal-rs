@@ -1,3 +1,3 @@
 [submodule "linuxcnc-hal-sys/linuxcnc-src"]
 	path = linuxcnc-hal-sys/linuxcnc-src
-	url = https://github.com/LinuxCNC/linuxcnc.git
+	url = git@github.com:oMtQB4/linuxcnc.git

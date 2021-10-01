@@ -61,7 +61,7 @@
 //! }
 //! ```
 
-#![deny(missing_docs)]
+//#![deny(missing_docs)]
 #![deny(intra_doc_link_resolution_failure)]
 
 #[macro_use]
@@ -69,7 +69,7 @@ extern crate log;
 
 mod builder;
 mod check_readme;
-mod error;
+pub mod error;
 pub mod hal_pin;
 
 pub use crate::builder::HalComponentBuilder;
